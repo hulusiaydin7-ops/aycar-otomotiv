@@ -1,4 +1,6 @@
-<!doctype html>
+from pathlib import Path
+
+html = """<!doctype html>
 <html lang="tr">
 <head>
   <meta charset="utf-8">
@@ -30,7 +32,7 @@
     <p>Motor, mekanik bakım ve arıza onarımında güvenilir hizmet.</p>
     <div class="buttons">
       <a class="btn orange" href="tel:+905070878345">📞 Hemen Ara</a>
-      <a class="btn green" href="https://wa.me/905070878345?text=Merhaba%20Aycar%20Otomotiv%2C%20bilgi%20almak%20istiyorum." target="_blank">WhatsApp ile Ulaş</a>
+      <a class="btn green" href="https://wa.me/905070878345?text=Merhaba%20Aycar%20Otomotiv%2C%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener">WhatsApp ile Ulaş</a>
     </div>
     <div class="info">
       <div><b>Adres</b><span>Sümer Mah. 90. Sk. No:5<br>Merkezefendi / Denizli</span></div>
@@ -42,7 +44,12 @@
 <section id="hizmetler" class="section dark">
   <div class="heading"><span>UZMANLIK ALANLARIMIZ</span><h2>Hizmetlerimiz</h2></div>
   <div class="cards">
-    <article><h3>Periyodik Bakım</h3><p>Yağ, filtre ve genel bakım kontrolleri.</p></article>
+    <article onclick="window.location.href='bakim.html'" style="cursor:pointer;" role="link" tabindex="0"
+             onkeydown="if(event.key==='Enter'||event.key===' '){window.location.href='bakim.html';}">
+      <h3>Periyodik Bakım</h3>
+      <p>Yağ, filtre ve genel bakım kontrolleri.</p>
+      <p><strong>Detayları Gör →</strong></p>
+    </article>
     <article><h3>Motor Revizyonu</h3><p>Motor arızalarının kontrolü ve mekanik onarımı.</p></article>
     <article><h3>Triger Seti Değişimi</h3><p>Triger sistemi ve ilgili parçaların değişimi.</p></article>
     <article><h3>Devirdaim Değişimi</h3><p>Soğutma sistemi ve devirdaim işlemleri.</p></article>
@@ -85,7 +92,7 @@
       <p><b>Telefon / WhatsApp:</b> 0507 087 8345</p>
       <p><b>Adres:</b> Sümer Mahallesi, 90. Sokak No:5, 20020 Merkezefendi / Denizli</p>
       <p><b>Çalışma saatleri:</b> Pazartesi–Cumartesi 09:00–18:30</p>
-      <p><b>Instagram:</b> <a href="https://www.instagram.com/hulusiaydin20/" target="_blank">@hulusiaydin20</a></p>
+      <p><b>Instagram:</b> <a href="https://www.instagram.com/hulusiaydin20/" target="_blank" rel="noopener">@hulusiaydin20</a></p>
     </div>
     <iframe title="Aycar Otomotiv konum" src="https://www.google.com/maps?q=S%C3%BCmer%20Mahallesi%2090.%20Sokak%20No%3A5%20Merkezefendi%20Denizli&output=embed" loading="lazy"></iframe>
   </div>
@@ -98,3 +105,8 @@
 </footer>
 </body>
 </html>
+"""
+
+path = Path("/mnt/data/index-duzeltilmis.html")
+path.write_text(html, encoding="utf-8")
+print(path)
