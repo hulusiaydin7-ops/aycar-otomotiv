@@ -1,0 +1,7 @@
+1) Bu ZIP dosyasını bilgisayarda çıkarın.
+2) GitHub deposunda Add file > Upload files seçin.
+3) Çıkan klasördeki tüm HTML dosyalarını ve style.css dosyasını yükleyin.
+4) Mevcut dosyaların üzerine yazın ve Commit changes düğmesine basın.
+5) logo.png ve galeri-1.jpg ... galeri-9.jpg dosyaları depoda ana dizinde kalmalıdır.
+6) 2-3 dakika sonra siteyi Ctrl+F5 ile yenileyin.
+Not: style.css dosyasının içinde HTML değil CSS kodu bulunur.

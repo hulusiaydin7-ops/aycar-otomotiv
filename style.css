@@ -1,100 +1,63 @@
-<!doctype html>
-<html lang="tr">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Aycar Otomotiv | Denizli Özel Oto Servis</title>
-  <meta name="description" content="Denizli Merkezefendi'de periyodik bakım, motor revizyonu, triger seti, devirdaim, fren, debriyaj, arıza tespiti ve mekanik onarım.">
-  <meta name="theme-color" content="#080808">
-  <link rel="icon" href="assets/logo.png">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header class="topbar">
-  <a class="brand" href="#anasayfa"><img src="assets/logo.png" alt="Aycar Otomotiv logosu"></a>
-  <nav>
-    <a href="#hizmetler">Hizmetler</a>
-    <a href="#markalar">Markalar</a>
-    <a href="#galeri">Galeri</a>
-    <a href="#iletisim">İletişim</a>
-  </nav>
-  <a class="call" href="tel:+905070878345">0507 087 8345</a>
-</header>
 
-<main>
-<section id="anasayfa" class="hero">
-  <div class="shade"></div>
-  <div class="hero-inner">
-    <span class="tag">DENİZLİ • MERKEZEFENDİ</span>
-    <h1>Özel Oto Servis</h1>
-    <p>Motor, mekanik bakım ve arıza onarımında güvenilir hizmet.</p>
-    <div class="buttons">
-      <a class="btn orange" href="tel:+905070878345">📞 Hemen Ara</a>
-      <a class="btn green" href="https://wa.me/905070878345?text=Merhaba%20Aycar%20Otomotiv%2C%20bilgi%20almak%20istiyorum." target="_blank">WhatsApp ile Ulaş</a>
-    </div>
-    <div class="info">
-      <div><b>Adres</b><span>Sümer Mah. 90. Sk. No:5<br>Merkezefendi / Denizli</span></div>
-      <div><b>Çalışma Saatleri</b><span>Pazartesi–Cumartesi<br>09:00–18:30</span></div>
-    </div>
-  </div>
-</section>
-
-<section id="hizmetler" class="section dark">
-  <div class="heading"><span>UZMANLIK ALANLARIMIZ</span><h2>Hizmetlerimiz</h2></div>
-  <div class="cards">
-    <article><h3>Periyodik Bakım</h3><p>Yağ, filtre ve genel bakım kontrolleri.</p></article>
-    <article><h3>Motor Revizyonu</h3><p>Motor arızalarının kontrolü ve mekanik onarımı.</p></article>
-    <article><h3>Triger Seti Değişimi</h3><p>Triger sistemi ve ilgili parçaların değişimi.</p></article>
-    <article><h3>Devirdaim Değişimi</h3><p>Soğutma sistemi ve devirdaim işlemleri.</p></article>
-    <article><h3>Fren Sistemi</h3><p>Balata, disk ve fren bakım-onarımı.</p></article>
-    <article><h3>Debriyaj</h3><p>Debriyaj sistemi bakım ve parça değişimi.</p></article>
-    <article><h3>Arıza Tespiti</h3><p>Mekanik problemlerin doğru teşhisi.</p></article>
-    <article><h3>Yağ Bakımı</h3><p>Motor yağı ve filtre değişimi.</p></article>
-    <article><h3>Mekanik Onarım</h3><p>Genel mekanik bakım ve onarım işlemleri.</p></article>
-  </div>
-</section>
-
-<section id="markalar" class="section light">
-  <div class="heading"><span>ÇOK MARKALI SERVİS</span><h2>Hizmet Verdiğimiz Markalar</h2></div>
-  <div class="brands">
-    <span>Volkswagen</span><span>Opel</span><span>BMW</span><span>Peugeot</span><span>Citroën</span>
-    <span>Ford</span><span>Renault</span><span>Dacia</span><span>Fiat</span>
-  </div>
-</section>
-
-<section id="galeri" class="section dark">
-  <div class="heading"><span>ATÖLYEMİZDEN</span><h2>Galeri</h2></div>
-  <div class="gallery">
-    <img src="assets/galeri-1.jpg" alt="Aycar Otomotiv servis çalışması">
-    <img src="assets/galeri-2.jpg" alt="Motor bakım çalışması">
-    <img src="assets/galeri-3.jpg" alt="Devirdaim parçası">
-    <img src="assets/galeri-4.jpg" alt="Mekanik bakım">
-    <img src="assets/galeri-5.jpg" alt="Opel motor bakımı">
-    <img src="assets/galeri-6.jpg" alt="BMW motor onarımı">
-    <img src="assets/galeri-7.jpg" alt="Motor içi mekanik çalışma">
-    <img src="assets/galeri-8.jpg" alt="Yedek parçalar">
-    <img src="assets/galeri-9.jpg" alt="Dacia bakım işlemi">
-  </div>
-</section>
-
-<section id="iletisim" class="section contact">
-  <div class="contact-box">
-    <div>
-      <span class="tag">RANDEVU VE BİLGİ</span>
-      <h2>Aracınız için hemen ulaşın</h2>
-      <p><b>Telefon / WhatsApp:</b> 0507 087 8345</p>
-      <p><b>Adres:</b> Sümer Mahallesi, 90. Sokak No:5, 20020 Merkezefendi / Denizli</p>
-      <p><b>Çalışma saatleri:</b> Pazartesi–Cumartesi 09:00–18:30</p>
-      <p><b>Instagram:</b> <a href="https://www.instagram.com/hulusiaydin20/" target="_blank">@hulusiaydin20</a></p>
-    </div>
-    <iframe title="Aycar Otomotiv konum" src="https://www.google.com/maps?q=S%C3%BCmer%20Mahallesi%2090.%20Sokak%20No%3A5%20Merkezefendi%20Denizli&output=embed" loading="lazy"></iframe>
-  </div>
-</section>
-</main>
-
-<footer>
-  <img src="assets/logo.png" alt="Aycar Otomotiv">
-  <p>© 2026 Aycar Otomotiv. Tüm hakları saklıdır.</p>
-</footer>
-</body>
-</html>
+:root{
+  --bg:#0b0f17;--panel:#131a26;--panel2:#182233;--text:#f5f7fb;
+  --muted:#b7c0cd;--accent:#ff8a00;--accent2:#ffb347;--line:#283449;
+  --max:1160px;--radius:18px
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.container{width:min(var(--max),calc(100% - 32px));margin:auto}
+.topbar{position:sticky;top:0;z-index:50;background:rgba(11,15,23,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+.navbar{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800}
+.brand img{width:58px;height:58px;object-fit:contain}
+.nav{display:flex;align-items:center;gap:20px;font-size:15px}
+.nav a:hover{color:var(--accent)}
+.call{background:var(--accent);color:#111;padding:11px 15px;border-radius:999px;font-weight:800;white-space:nowrap}
+.hero{min-height:640px;display:grid;place-items:center;position:relative;background:
+linear-gradient(90deg,rgba(7,10,15,.92),rgba(7,10,15,.58)),
+url("galeri-1.jpg") center/cover no-repeat}
+.hero-content{padding:90px 0;max-width:760px}
+.eyebrow{color:var(--accent2);font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.02;margin:14px 0 20px}
+h2{font-size:clamp(28px,4vw,42px);line-height:1.15;margin:0 0 14px}
+h3{margin-top:0}
+.lead{font-size:20px;color:var(--muted);max-width:680px}
+.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-block;padding:14px 20px;border-radius:12px;font-weight:800;border:1px solid var(--line)}
+.btn-primary{background:var(--accent);color:#111;border-color:var(--accent)}
+.btn-secondary{background:rgba(255,255,255,.06)}
+.section{padding:82px 0}
+.section-alt{background:#0f1520}
+.section-head{margin-bottom:32px}
+.section-head p{color:var(--muted);max-width:720px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:var(--radius);padding:25px}
+.card p{color:var(--muted)}
+.card a{color:var(--accent2);font-weight:800}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.gallery img{width:100%;height:250px;object-fit:cover;border-radius:14px;border:1px solid var(--line)}
+.info-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}
+.info-box{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:28px}
+.info-list{padding:0;list-style:none}
+.info-list li{padding:10px 0;border-bottom:1px solid var(--line)}
+.page-hero{padding:90px 0 62px;background:linear-gradient(135deg,#111827,#1c2739)}
+.page-hero p{max-width:760px;color:var(--muted)}
+.content{padding:62px 0}
+.content-wrap{display:grid;grid-template-columns:2fr 1fr;gap:28px}
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:30px}
+.prose li{margin-bottom:8px}
+.sidebar{background:var(--panel2);border:1px solid var(--line);border-radius:var(--radius);padding:24px;height:max-content}
+footer{border-top:1px solid var(--line);padding:35px 0;color:var(--muted)}
+.mobile-call{display:none}
+@media(max-width:850px){
+  .nav{display:none}.grid,.gallery{grid-template-columns:1fr 1fr}.info-grid,.content-wrap{grid-template-columns:1fr}
+  .hero{min-height:560px}.call{display:none}.mobile-call{display:block;position:fixed;right:16px;bottom:16px;z-index:60;background:var(--accent);color:#111;padding:14px 17px;border-radius:999px;font-weight:900;box-shadow:0 12px 35px rgba(0,0,0,.35)}
+}
+@media(max-width:560px){
+  .grid,.gallery{grid-template-columns:1fr}.gallery img{height:230px}.section{padding:62px 0}
+  h1{font-size:43px}.brand span{font-size:14px}
+}
